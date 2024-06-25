@@ -114,6 +114,7 @@
         "Kentos Kelapa",
         "Nana Jungler",
         "Mas Hendra Pentol",
+        "Bidadari Surga",
       ];
 
       function cekKhodam() {
@@ -124,6 +125,22 @@
 
         if (nama === "") {
           alert("Nama tidak boleh kosong!");
+          return;
+        }
+        if (nama == "niyak") {
+          const resultContainer = document.getElementById("result");
+          resultContainer.innerHTML = `<p class="text-2xl text-blue-500 font-bold">"${nama}"</p><br>
+        <h4 class="text-2xl text-blue-500 font-bold">Kodam : Tuyul Ceperet</h4>`;
+          const inputNama = document.getElementById("nama");
+          inputNama.value = "";
+          return;
+        }
+        if (nama === "utes") {
+          const resultContainer = document.getElementById("result");
+          resultContainer.innerHTML = `<p class="text-2xl text-blue-500 font-bold">"${nama}"</p><br>
+        <h4 class="text-2xl text-blue-500 font-bold">Kodam : Tuyul Ceperet</h4>`;
+          const inputNama = document.getElementById("nama");
+          inputNama.value = "";
           return;
         }
 
