@@ -127,6 +127,7 @@
           alert("Nama tidak boleh kosong!");
           return;
         }
+
         // khusus mbak niyak
         if (nama == "Niyak") {
           const resultContainer = document.getElementById("result");
@@ -169,7 +170,7 @@
           inputNama.value = "";
           return;
         }
-        if (nama === "Ayak") {
+        if (nama === "Aya'") {
           const resultContainer = document.getElementById("result");
           resultContainer.innerHTML = `<p class="text-2xl text-blue-500 font-bold">"${nama}"</p><br>
         <h4 class="text-2xl text-blue-500 font-bold">Kodam : Kentut Berdahak</h4>`;
@@ -177,6 +178,7 @@
           inputNama.value = "";
           return;
         }
+        // monyet end
 
         console.log(`Khodam yang muncul: ${randomKhodam}`);
 
