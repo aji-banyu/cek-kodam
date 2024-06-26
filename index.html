@@ -129,7 +129,12 @@
         }
 
         // khusus mbak niyak
-        if (nama == "Niyak") {
+        if (
+          nama == "Niyak" ||
+          nama == "Utees" ||
+          nama == "Niya" ||
+          nama == "Utsniya"
+        ) {
           const resultContainer = document.getElementById("result");
           resultContainer.innerHTML = `<p class="text-2xl text-blue-500 font-bold">"${nama}"</p><br>
         <h4 class="text-2xl text-blue-500 font-bold">Kodam : Tuyul Ceperet</h4>`;
@@ -137,40 +142,16 @@
           inputNama.value = "";
           return;
         }
-        if (nama === "Utees") {
-          const resultContainer = document.getElementById("result");
-          resultContainer.innerHTML = `<p class="text-2xl text-blue-500 font-bold">"${nama}"</p><br>
-        <h4 class="text-2xl text-blue-500 font-bold">Kodam : Tuyul Ceperet</h4>`;
-          const inputNama = document.getElementById("nama");
-          inputNama.value = "";
-          return;
-        }
-        if (nama === "Niya") {
-          const resultContainer = document.getElementById("result");
-          resultContainer.innerHTML = `<p class="text-2xl text-blue-500 font-bold">"${nama}"</p><br>
-        <h4 class="text-2xl text-blue-500 font-bold">Kodam : Tuyul Ceperet</h4>`;
-          const inputNama = document.getElementById("nama");
-          inputNama.value = "";
-          return;
-        }
+
         // khusus mbak yayas
-        if (nama == "Akyas") {
-          const resultContainer = document.getElementById("result");
-          resultContainer.innerHTML = `<p class="text-2xl text-blue-500 font-bold">"${nama}"</p><br>
-        <h4 class="text-2xl text-blue-500 font-bold">Kodam : Kentut Berdahak</h4>`;
-          const inputNama = document.getElementById("nama");
-          inputNama.value = "";
-          return;
-        }
-        if (nama === "Yayas") {
-          const resultContainer = document.getElementById("result");
-          resultContainer.innerHTML = `<p class="text-2xl text-blue-500 font-bold">"${nama}"</p><br>
-        <h4 class="text-2xl text-blue-500 font-bold">Kodam : Kentut Berdahak</h4>`;
-          const inputNama = document.getElementById("nama");
-          inputNama.value = "";
-          return;
-        }
-        if (nama === "Aya'") {
+        if (
+          nama == "Akyas" ||
+          nama == "Yayas" ||
+          nama == "Aya" ||
+          nama == "Ayak" ||
+          nama == "Akyas mauqiyyah" ||
+          nama == "Mauqiyyah"
+        ) {
           const resultContainer = document.getElementById("result");
           resultContainer.innerHTML = `<p class="text-2xl text-blue-500 font-bold">"${nama}"</p><br>
         <h4 class="text-2xl text-blue-500 font-bold">Kodam : Kentut Berdahak</h4>`;
